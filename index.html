@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake game</title>
+  <script src="./src/main.ts" type="module" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Snake game</h1>
+  
+    <div class="score score-position">
+      <span>Score:</span>
+      <span class="score-value">00</span>
+    </div>
+  </header>
+
+  <div class="menu-game-over none">
+    <h1>Game Over</h1>
+    <div class="score">
+      <span>Score:</span>
+      <span class="score-value">00</span>
+    </div>
+    <button type="button">Jogar Novamente</button>
+  </div>
+  
+  <canvas></canvas>
+</body>
+</html>
